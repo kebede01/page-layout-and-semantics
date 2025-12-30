@@ -29,7 +29,7 @@ build/
 git rm --cached <file_name>
 # The Slash Rule: * /debug.log ignores only the log in the root directory.
 # .debug.log ignores any file named debug.log in any subdirectory.
-*.READ.ME
+*READ.ME
 # Logs
 logs
 *.log
