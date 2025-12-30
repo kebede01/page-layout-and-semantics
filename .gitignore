@@ -1,0 +1,49 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables (Sensitive info!)
+.env
+*.env.local
+
+# Logs and databases
+*.log
+*.sqlite
+node_modules/
+dist/
+build/
+.npm
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env/
+.pytest_cache/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+.gradle/
+*.class
+# Ignore a file already tracked: If you accidentally committed a file that should be ignored, you must "untrack" it first:
+git rm --cached <file_name>
+# The Slash Rule: * /debug.log ignores only the log in the root directory.
+# .debug.log ignores any file named debug.log in any subdirectory.
+*.READ.ME
+# Logs
+logs
+*.log
+npm-debug.log*
+*.log
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# System files and IDE settings folders
+.DS_Store
+.idea
+.vscode
+*.env
+
